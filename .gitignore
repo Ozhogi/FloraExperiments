@@ -63,3 +63,7 @@ crashlytics-build.properties
 
 
 UserSettings/
+
+Assets/Plugins/BuildReport/
+
+Assets/Plugins/BuildReport.meta
