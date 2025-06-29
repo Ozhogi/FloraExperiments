@@ -465,6 +465,7 @@ MonoBehaviour:
   - {fileID: -6288072647309666549}
   - {fileID: 7518938298396184218}
   - {fileID: -1410297666881709256}
+  - {fileID: 7477127720196699201}
 --- !u!114 &853819529557874667
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -755,6 +756,97 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
+--- !u!114 &1843546522034658323
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a1a0912ccc82aa49bc9c20a5f3409b2, type: 3}
+  m_Name: AmplifyOcclusionVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  <displayName>k__BackingField: Amplify Occlusion
+  ApplyMethod:
+    m_OverrideState: 1
+    m_Value: 0
+  SampleCount:
+    m_OverrideState: 1
+    m_Value: 1
+  RampTexture:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  Intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  Tint:
+    m_OverrideState: 1
+    m_Value:
+      r: 0
+      g: 0
+      b: 0
+      a: 1
+  Radius:
+    m_OverrideState: 1
+    m_Value: 2
+  PowerExponent:
+    m_OverrideState: 1
+    m_Value: 1.8
+  Bias:
+    m_OverrideState: 1
+    m_Value: 0.05
+  Thickness:
+    m_OverrideState: 1
+    m_Value: 1
+  Downsample:
+    m_OverrideState: 1
+    m_Value: 1
+  CacheAware:
+    m_OverrideState: 1
+    m_Value: 0
+  FadeEnabled:
+    m_OverrideState: 1
+    m_Value: 0
+  FadeStart:
+    m_OverrideState: 1
+    m_Value: 100
+  FadeLength:
+    m_OverrideState: 1
+    m_Value: 50
+  FadeToIntensity:
+    m_OverrideState: 1
+    m_Value: 0
+  FadeToTint:
+    m_OverrideState: 1
+    m_Value:
+      r: 0
+      g: 0
+      b: 0
+      a: 1
+  FadeToRadius:
+    m_OverrideState: 1
+    m_Value: 2
+  FadeToPowerExponent:
+    m_OverrideState: 1
+    m_Value: 1
+  FadeToThickness:
+    m_OverrideState: 1
+    m_Value: 1
+  BlurEnabled:
+    m_OverrideState: 1
+    m_Value: 1
+  BlurRadius:
+    m_OverrideState: 1
+    m_Value: 3
+  BlurPasses:
+    m_OverrideState: 1
+    m_Value: 1
+  BlurSharpness:
+    m_OverrideState: 1
+    m_Value: 15
 --- !u!114 &1918650496244738858
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -894,6 +986,105 @@ MonoBehaviour:
   rounded:
     m_OverrideState: 1
     m_Value: 0
+--- !u!114 &7477127720196699201
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90fbf49926625114084d7e0c0cffe8d1, type: 3}
+  m_Name: HBAO
+  m_EditorClassIdentifier: 
+  active: 1
+  preset:
+    m_OverrideState: 1
+    m_Value: 2
+  mode:
+    m_OverrideState: 1
+    m_Value: 1
+  renderingPath:
+    m_OverrideState: 1
+    m_Value: 0
+  quality:
+    m_OverrideState: 1
+    m_Value: 2
+  deinterleaving:
+    m_OverrideState: 1
+    m_Value: 0
+  resolution:
+    m_OverrideState: 1
+    m_Value: 0
+  noiseType:
+    m_OverrideState: 1
+    m_Value: 0
+  debugMode:
+    m_OverrideState: 1
+    m_Value: 0
+  radius:
+    m_OverrideState: 1
+    m_Value: 0.8
+  maxRadiusPixels:
+    m_OverrideState: 1
+    m_Value: 128
+  bias:
+    m_OverrideState: 1
+    m_Value: 0.05
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0
+  useMultiBounce:
+    m_OverrideState: 1
+    m_Value: 0
+  multiBounceInfluence:
+    m_OverrideState: 1
+    m_Value: 1
+  directLightingStrength:
+    m_OverrideState: 1
+    m_Value: 0.25
+  offscreenSamplesContribution:
+    m_OverrideState: 1
+    m_Value: 0
+  maxDistance:
+    m_OverrideState: 1
+    m_Value: 150
+  distanceFalloff:
+    m_OverrideState: 1
+    m_Value: 50
+  perPixelNormals:
+    m_OverrideState: 1
+    m_Value: 2
+  baseColor:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  temporalFilterEnabled:
+    m_OverrideState: 1
+    m_Value: 0
+  varianceClipping:
+    m_OverrideState: 1
+    m_Value: 1
+  blurType:
+    m_OverrideState: 1
+    m_Value: 2
+  sharpness:
+    m_OverrideState: 1
+    m_Value: 8
+  colorBleedingEnabled:
+    m_OverrideState: 1
+    m_Value: 0
+  saturation:
+    m_OverrideState: 1
+    m_Value: 1
+  brightnessMask:
+    m_OverrideState: 1
+    m_Value: 1
+  brightnessMaskRange:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0.5}
+    min: 0
+    max: 2
 --- !u!114 &7518938298396184218
 MonoBehaviour:
   m_ObjectHideFlags: 3
