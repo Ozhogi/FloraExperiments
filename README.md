@@ -2,7 +2,7 @@
 
 Inspired by TES:Oblivion trees.
 
-Using the VFX Graph
+Using VFX Graph
 
 [WebGPU build](https://ozhogi.github.io/FloraExperiments_WebGPU/)
 
